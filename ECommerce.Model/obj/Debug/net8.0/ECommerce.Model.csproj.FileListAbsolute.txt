@@ -9,3 +9,4 @@ C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Model\obj\Debug\net8.0\ECommerc
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Model\obj\Debug\net8.0\refint\ECommerce.Model.dll
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.pdb
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Model\obj\Debug\net8.0\ref\ECommerce.Model.dll
+C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Model\obj\Debug\net8.0\ECommerce.Model.sourcelink.json

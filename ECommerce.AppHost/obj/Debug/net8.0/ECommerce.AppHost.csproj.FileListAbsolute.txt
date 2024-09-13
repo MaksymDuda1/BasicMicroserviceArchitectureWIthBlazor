@@ -55,3 +55,4 @@ C:\Users\maksi\RiderProjects\ECommerce\ECommerce.AppHost\obj\Debug\net8.0\refint
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.AppHost\obj\Debug\net8.0\ECommerce.AppHost.pdb
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.AppHost\obj\Debug\net8.0\ECommerce.AppHost.genruntimeconfig.cache
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.AppHost\obj\Debug\net8.0\ref\ECommerce.AppHost.dll
+C:\Users\maksi\RiderProjects\ECommerce\ECommerce.AppHost\obj\Debug\net8.0\ECommerce.AppHost.sourcelink.json

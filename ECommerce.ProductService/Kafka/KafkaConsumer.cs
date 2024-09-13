@@ -19,7 +19,7 @@ public class KafkaConsumer(IServiceScopeFactory scopeFactory) : BackgroundServic
     {
         var config = new ConsumerConfig
         {
-            GroupId = "order-topic",
+            GroupId = "order-group",
             BootstrapServers = $"localhost:9092",
             AutoOffsetReset = AutoOffsetReset.Earliest,
         };

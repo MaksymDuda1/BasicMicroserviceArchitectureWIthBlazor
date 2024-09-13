@@ -31,3 +31,4 @@ C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Web\obj\Debug\net8.0\refint\ECo
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Web\obj\Debug\net8.0\ECommerce.Web.pdb
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Web\obj\Debug\net8.0\ECommerce.Web.genruntimeconfig.cache
 C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Web\obj\Debug\net8.0\ref\ECommerce.Web.dll
+C:\Users\maksi\RiderProjects\ECommerce\ECommerce.Web\obj\Debug\net8.0\ECommerce.Web.sourcelink.json
