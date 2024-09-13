@@ -1,0 +1,42 @@
+﻿@page "/cart/{ProductId:int}"
+@using ECommerce.Model
+@rendermode InteractiveServer
+@inject HttpClient Client
+@inject IJSRuntime JsRuntime
+
+<form>
+    <div class="form-group mb-4">
+        <label for="exampleInputEmail1">Customer name</label>
+        <input type="text" class="form-control" @bind="Model.CustomerName">
+    </div>
+    <div class="form-group mb-4">
+        <label for="exampleInputPassword1">Product name</label>
+        <input type="text" class="form-control" @bind="Product.Name"disabled>
+    </div>
+    <div class="form-group mb-4">
+        <label for="exampleInputPassword1">Quantity</label>
+        <input type="number" class="form-control" @bind="Model.Quantity">
+    </div>
+    <button type="button" class="btn btn-primary" @onclick="CreateOrder">Create order</button>
+</form>
+
+@code {
+    [Parameter]
+    public int ProductId  { get; set; }
+    private OrderModel Model = new OrderModel();
+    private ProductModel Product = new ProductModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Model.ProductId = ProductId;
+        Product = await Client.GetFromJsonAsync<ProductModel>($"http://localhost:5032/api/product/{ProductId}");
+    }
+    private async Task CreateOrder()
+    {
+        var res = await Client.PostAsJsonAsync<OrderModel>("http://localhost:5249/api/order", Model);
+        if (res.IsSuccessStatusCode)
+        {
+            await JsRuntime.InvokeVoidAsync("alert", "Create order success");
+        }
+    }
+}

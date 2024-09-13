@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Yu8xroFbmFiPMo+qrRo75C8+Pw17NI9tmjvdy9fPEk4=",
+  "Source": "ECommerce.OrderService",
+  "BasePath": "_content/ECommerce.OrderService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
